@@ -1,0 +1,28 @@
+/**/
+.dropright .dropdown-toggle::after,
+.dropdown-toggle::after { display: none; }
+
+footer { background: #000; }
+footer a,
+footer h2,
+footer .text-gray,
+footer input { color:#fff !important; }
+
+/* */
+.slick-slider p { color: #000000; }
+.slick-slider .btn { color: #FFFFFF; }
+
+.btn-primary { background: #d98236; border-color: #d98236; }
+.btn-primary:hover { background: transparent; border-color: #d98236; }
+.btn-secondary { background: #000000; border-color: #000000; }
+.btn-secondary:hover { background: transparent; border-color: #000000; }
+
+/**/
+.pt-50  { padding-top: 50px; }
+.pt-75  { padding-top: 75px; }
+.pt-100 { padding-top: 100px; }
+
+.hidden { display: none !important; }
+.overlay { position: absolute; height: 100%; width: 100%; background-color: rgba(0, 0, 0, 0.4); top: 0; left: 0; }
+
+h1 { font-size: 72px; line-height: 80px; }
