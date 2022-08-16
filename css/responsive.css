@@ -1,0 +1,31 @@
+/* 320px */
+@media (min-width: 320px) {
+	.for-mobile { display: block !important; }
+	.for-screen { display: none !important; }
+
+	/* */
+	.slick-arrow { display: none !important; }
+	.slider-image { padding-top: 100px; }
+	.slider-image .row { height: calc(100vh - 100px); padding-top: 0; }
+	.slider-heading { font-size: 40px; line-height: 56px; }
+	.slider-subheading { font-size: 16px; line-height: 24px; display: none; }
+	
+	.section-categories .card { margin-bottom: 20px; }
+	.section-highlight-content { margin-top: 140px; }
+}
+
+/* 768px */
+@media (min-width: 768px) {
+	.for-mobile { display: none !important; }
+	.for-screen { display: block !important; }
+	
+	/* */
+	.slick-arrow {display: flex !important; }
+	.slider-image { padding-top: 100px; }
+	.slider-image .row { height: calc(100vh - 100px); padding-top: 0; }
+	.slider-heading { font-size: 72px; line-height: 80px; }
+	.slider-subheading { font-size: 24px; line-height: 32px; display: block; }
+	
+	.section-highlight-content { margin-top: 0; }
+	
+}

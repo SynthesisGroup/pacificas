@@ -10,7 +10,9 @@ footer input { color:#fff !important; }
 
 /* */
 .slick-slider p { color: #000000; }
-.slick-slider .btn { color: #FFFFFF; }
+.slick-slider .btn { color: #FFFFFF; margin: 0 10px 15px; }
+.slick-arrow.slick-next { left: auto; right: 100px; }
+.slick-arrow.slick-prev { left: 100px; ight: auto; }
 
 .btn-primary { background: #d98236; border-color: #d98236; }
 .btn-primary:hover { background: transparent; border-color: #d98236; }
