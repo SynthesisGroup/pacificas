@@ -23,7 +23,7 @@
 	<link rel="stylesheet" href="css/responsive.css">
 </head>
 	
-<body>
+<body class="page-home">
 	<!-- -->
 	<header class="main-header navbar-light header-sticky header-sticky-smart position-absolute fixed-top">
 		<!-- -->
@@ -43,7 +43,7 @@
 						<div class="col-xl-6 d-flex justify-content-center position-static">
 							<!-- -->
 							<ul class="navbar-nav hover-menu main-menu px-0 mx-xl-n4">
-								<li class="nav-item py-2 py-xl-5 px-0 px-xl-4"><a class="nav-link p-0" href="index.html">Home</a></li>
+								<li class="nav-item py-2 py-xl-5 px-0 px-xl-4"><a class="nav-link p-0 active" href="index.html">Home</a></li>
 								<li class="nav-item py-2 py-xl-5 px-0 px-xl-4"><a class="nav-link p-0" href="about.html">About</a></li>
 								<li class="nav-item py-2 py-xl-5 px-0 px-xl-4"><a class="nav-link p-0" href="catalogue.html">Catalogue</a></li>
 								<li class="nav-item dropdown-item-pages dropdown py-2 py-xl-5 px-0 px-xl-4">
@@ -52,9 +52,9 @@
 									</a>
 									
 									<!-- -->
-									<ul class="dropdown-menu pt-3 pb-0 pb-xl-3 x-animated x-fadeInUp">							
+									<ul class="dropdown-menu pt-3 pb-0 pb-xl-3 x-animated x-fadeInUp">	
+										<li class="dropdown-item"><a class="dropdown-link" href="home-and-living.html">Home and Living</a></li>						
 										<li class="dropdown-item"><a class="dropdown-link" href="office-furniture.html">Office Furniture</a></li>
-										<li class="dropdown-item"><a class="dropdown-link" href="home-and-living.html">Home and Living</a></li>
 										<li class="dropdown-item"><a class="dropdown-link" href="modular-cabinets.html">Modular Cabinets</a></li>
 									</ul>
 								</li>
@@ -336,7 +336,7 @@
 			<!-- -->
 			<div class="container container-xxl">
 				<!-- -->
-				<div class="row align-items-center no-gutters">
+				<div class="row align-items-center justify-content-around no-gutters">
 					<!-- -->
 					<div class="col-lg-3 mb-6 mb-lg-0 pr-xxl-8" data-animate="fadeInLeft">
 						<h2 class="fs-30 fs-md-56 mb-5">Refresh<br />Your Room</h2>
@@ -350,7 +350,7 @@
 					</div>
 					
 					<!-- -->
-					<div class="category-slider pl-xxl-9 pr-lg-6" data-animate="fadeInRight">
+					<div class="category-slider col-lg-9 pl-xxl-9 pr-lg-6" data-animate="fadeInRight">
 						<!-- -->
 						<div class="slick-slider custom-nav custom-slider-01" data-slick-options='{"slidesToShow": 2,"infinite":true,"autoplay":false,"dots":false,"arrows":false,"responsive":[{"breakpoint": 1200,"settings": {"slidesToShow":2}},{"breakpoint": 576,"settings": {"slidesToShow": 1}}]}'>
 							<!-- -->
@@ -436,8 +436,9 @@
 				</div>
 			</div>
 		</section>
-		<!-- /shop by brands -->	
+		<!-- / -->	
 
+		<!-- -->
 		<section class="pb-2 overflow-hidden">
 			<!-- -->
 			<div class="slick-slider mx-n1" data-slick-options='{"slidesToShow": 6,"infinite":true,"autoplay":true,"dots":false,"arrows":false,"responsive":[{"breakpoint": 1366,"settings": {"slidesToShow":5}},{"breakpoint": 992,"settings": {"slidesToShow":4}},{"breakpoint": 768,"settings": {"slidesToShow": 3}},{"breakpoint": 576,"settings": {"slidesToShow": 2}}]}'>	
@@ -609,34 +610,6 @@
 				<p class="mb-0 text-gray">Copyright 2022 Pacificas Wood.<br />All rights reserved.</p>
 			</div>
 		</div>
-	</div>
-	
-	<!-- -->
-	<div class="mfp-hide search-popup mfp-with-anim" id="search-popup">
-		<!-- -->
-		<form>
-			<!-- -->
-			<div class="input-group position-relative">
-				<!-- -->
-				<div class="input-group-prepend d-none d-md-block">
-					<!-- -->
-					<select class="selectpicker" name="category" id="region-01" data-style="btn-lg letter-spacing-0 border-0 border-bottom border-2x bg-transparent text-white border-white fs-24 pl-0 shadow-none text-capitalize font-weight-normal">
-						<option value="" selected>All Categories</option>
-						<option value="chairs">Chairs</option>
-						<option value="stands">Stands</option>
-						<option value="tables">Tables</option>
-						<option value="accessory">Accessory</option>
-					</select>
-				</div>
-				
-				<input type="text" id="keyword" name="keyword" class="form-control border-0 border-bottom border-2x bg-transparent text-white border-white fs-24 form-control-lg" placeholder="Search Something...">
-				
-				<!-- -->
-				<div class="input-group-append position-absolute pos-fixed-right-center">
-					<button class="input-group-text bg-transparent border-0 text-white fs-30 px-0 btn-lg" type="submit"><i class="far fa-search"></i></button>
-				</div>
-			</div>
-		</form>
 	</div>
 </body>
 </html>

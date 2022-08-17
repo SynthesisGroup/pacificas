@@ -28,3 +28,7 @@ footer input { color:#fff !important; }
 .overlay { position: absolute; height: 100%; width: 100%; background-color: rgba(0, 0, 0, 0.4); top: 0; left: 0; }
 
 h1 { font-size: 72px; line-height: 80px; }
+
+/**/
+.main-header .main-menu .nav-link.active { color: #d98236; }
+.main-header .main-menu .nav-link.active:before { width: 100%; background: #d98236; }
