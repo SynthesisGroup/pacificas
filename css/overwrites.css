@@ -18,17 +18,69 @@ footer input { color:#fff !important; }
 .btn-primary:hover { background: transparent; border-color: #d98236; }
 .btn-secondary { background: #000000; border-color: #000000; }
 .btn-secondary:hover { background: transparent; border-color: #000000; }
+.btn-tertiary { background: #FFFFFF; border-color: #000000; }
+.btn-tertiary:hover { background: #d98236; border-color: #d98236; color: #FFFFFF; }
+.btn-white:hover { background: #d98236; border-color: #d98236; color: #FFFFFF; }
 
 /**/
 .pt-50  { padding-top: 50px; }
 .pt-75  { padding-top: 75px; }
 .pt-100 { padding-top: 100px; }
+.fs-md-56 { line-height: 64px; }
 
 .hidden { display: none !important; }
 .overlay { position: absolute; height: 100%; width: 100%; background-color: rgba(0, 0, 0, 0.4); top: 0; left: 0; }
+.overlay-light { background-color: rgba(255, 255, 255, 0.25); }
+.overlay-dark { background-color: rgba(0, 0, 0, 0.25); }
 
 h1 { font-size: 72px; line-height: 80px; }
 
-/**/
+.list-links a:hover { opacity: 0.5; }
+
+/* */
+.sticky-area { background-color: rgba(255, 255, 255, 0.5); }
+.main-header .main-menu { margin: 20px 20px; }
+.main-header .main-menu .nav-item { margin: 20px 20px; }
 .main-header .main-menu .nav-link.active { color: #d98236; }
 .main-header .main-menu .nav-link.active:before { width: 100%; background: #d98236; }
+.main-header .navbar-brand { max-width: 180px; }
+
+/* */
+.slider-main .btn { padding: 15px 35px; }
+.slider-image { position: relative; }
+.slider-caption { text-align: center; }
+.slider-caption .slider-heading,
+.slider-caption .slider-subheading { color: #FFFFFF; }
+
+/* */
+.banner { background-color: #F1F1F1 !important; }
+.banner .row { height: 400px; padding-top: 100px; }
+
+/* */
+.page-inspirations main { margin-top: 110px; }
+.page-inspirations section { background-color: #FFFFFF; }
+.page-inspirations .banner { margin-bottom: 100px; }
+.page-inspirations .banner .row { padding-top: 0; }
+
+/* Isotope System */
+.grid p { text-transform: uppercase; margin: 0; font-size: 14px; }
+.grid-item { margin-bottom: 20px; }
+.grid-item { background-color: transparent !important; }
+.grid-item .card-body {  background-color: #FFFFFF; }
+.grid-item a { margin: 0 10px; }
+.grid-item img { height: 100%; width: 100%; transition: ease 0.3s all; }
+.grid-item:hover img { transform: scale(1.1); }
+
+.grid .card { border: 0; }
+.grid .card-img-top { overflow: hidden; }
+.grid .card-body { padding-left: 0; padding-right: 0; }
+
+.filter .btn { margin-right: 10px; }
+.filter .btn:focus { outline: 0; }
+.filter .btn:last-child { margin-right: 0; }
+
+/* Isotope: Columns */
+.grid-2-columns .grid-item { width: 50%; }
+.grid-3-columns .grid-item { width: 33%; }
+.grid-4-columns .grid-item { width: 25%; }
+.grid-5-columns .grid-item { width: 20%; }
