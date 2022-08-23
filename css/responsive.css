@@ -7,13 +7,21 @@
 	.slick-arrow { display: none !important; }
 	.slider-image { padding-top: 100px; }
 	.slider-image .row { height: calc(100vh - 100px); padding-top: 0; }
-	.slider-heading { font-size: 40px; line-height: 56px; }
+	.slider-heading { font-size: 40px; line-height: 48px; }
 	.slider-subheading { font-size: 16px; line-height: 24px; display: none; }
 	
 	.section-categories .card { margin-bottom: 20px; }
 	.section-highlight-content { margin-top: 140px; }
 	
-	.banner { background-size: 0; background-color: #F1F1F1; text-align: center; }
+	.slider,
+	.section { margin-bottom: 50px; }
+	.banner { background-size: 0; background-color: #F1F1F1; text-align: center; margin-bottom: 50px; padding: 50px 0; margin-top: 100px; }
+	.section-callout { padding: 50px 0; margin-bottom: 0 !important; }
+	
+	footer { padding-top: 50px; }
+	
+	.fs-40 { line-height: 48px; }
+	.fs-30 { line-height: 38px; }
 }
 
 /* 768px */
@@ -30,6 +38,15 @@
 	
 	.section-highlight-content { margin-top: 0; }
 	
-	.banner { background-size: cover; background-color: transparent; text-align: left; }
+	.slider,
+	.section { margin-bottom: 100px; }
+	.banner { background-size: cover; background-color: transparent; text-align: left; margin-bottom: 100px; padding: 100px 0; margin-top: 110px; }
+	.section-callout { padding: 100px 0; }
+	
+	footer { padding-top: 100px; }
+	
+	.fs-md-40 { line-height: 48px; }
+	.fs-md-56 { line-height: 64px; }
+	.fs-md-60 { line-height: 68px; }
 	
 }
