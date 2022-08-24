@@ -18,6 +18,12 @@ footer input { color:#fff !important; }
 .slick-arrow.slick-next { left: auto; right: 100px; }
 .slick-arrow.slick-prev { left: 100px; ight: auto; }
 
+/* */
+.slider-spaces { margin-bottom: 30px; }
+.slider-spaces .slick-arrow { /*display: flex !important;*/ }
+.slider-spaces .slick-arrow.slick-next { left: auto; right: -15px; }
+.slider-spaces .slick-arrow.slick-prev { left: -15px; ight: auto; }
+
 .btn-primary { background: #d98236; border-color: #d98236; }
 .btn-primary:hover { background: #000000; border-color: #000000; }
 .btn-secondary { background: #000000; border-color: #000000; }
@@ -95,3 +101,17 @@ footer input { color:#fff !important; }
 .filter-button-group .btn.active { background-color: #d98236; color: #FFFFFF; border-color: #d98236; }
 .filter-button-group .btn:focus { outline: 0; box-shadow: 0 0 0 !important; }
 .filter-button-group .btn:last-child { margin-right: 0; }
+
+/* */
+.image-marker .image-pointer .pointer-icon { background-color: #d98236; }
+.image-marker .image-pointer .pointer-icon:hover { background-color: #000000; }
+
+/* */
+.ekko-lightbox-nav-overlay { position: absolute; top: 45%; display: flex; width: calc(100% - 30px); justify-content: space-between; }
+.ekko-lightbox-nav-overlay a { border-radius: 100px; transition: ease 0.3s all; margin: 20px; opacity: 0.5; }
+.ekko-lightbox-nav-overlay a { display: flex; height: 50px; width: 50px; background-color: #FFFFFF; justify-content: center; align-items: center; }
+.ekko-lightbox-nav-overlay a:hover { background-color: #000000; color: #FFFFFF; opacity: 1; }
+
+/* */
+.table-products a { color: #d98236; }
+.table-products a:hover { color: #000000; }
