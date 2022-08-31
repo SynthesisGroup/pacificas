@@ -4,7 +4,7 @@
 
 h1 { font-size: 72px; line-height: 80px; }
 h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 { font-weight: 500px; }
+.h1, .h2, .h3, .h4, .h5, .h6 { font-weight: 600; }
 
 footer { background: #000; }
 footer a,
