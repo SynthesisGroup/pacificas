@@ -146,12 +146,13 @@
 						<p class="mb-7">If you’ve got great products your making or looking to work with us then drop us a line.</p>
 						
 						<!-- -->
-						<form>
+						<form id="my-form" action="https://formspree.io/f/xyyvzaoe" method="POST">
+							<p class="text-success" id="my-form-status"></p>
 							<!-- -->
 							<div class="row mb-6">
 								<!-- -->
 								<div class="col-sm-12">
-									<input type="text" class="form-control" placeholder="Full Name*" required>
+									<input type="text" name="name" class="form-control" placeholder="Full Name*" required>
 								</div>
 							</div>
 							
@@ -159,12 +160,12 @@
 							<div class="row mb-6">
 								<!-- -->
 								<div class="col-sm-6">
-									<input type="text" class="form-control" placeholder="Contact Number*" required>
+									<input type="text" name="phone" class="form-control" placeholder="Contact Number*" required>
 								</div>
 								
 								<!-- -->
 								<div class="col-sm-6">
-									<input type="email" class="form-control" placeholder="Email Address*" required>
+									<input type="email" name="email" class="form-control" placeholder="Email Address*" required>
 								</div>
 							</div>
 							
@@ -172,13 +173,13 @@
 							<div class="row mb-6">
 								<!-- -->
 								<div class="col-sm-12">
-									<input type="text" class="form-control" placeholder="Subject*" required>
+									<input type="text" name="subject" class="form-control" placeholder="Subject*" required>
 								</div>
 							</div>
 							
 							<!-- -->
 							<div class="form-group mb-4">
-								<textarea class="form-control" rows="6">Message</textarea>
+								<textarea name="message" class="form-control" rows="6" placeholder="Message"></textarea>
 							</div>
 							
 							<!-- -->
@@ -276,6 +277,7 @@
 	<script src="vendors/jparallax/TweenMax.min.js"></script>
 	<script src="vendors/mapbox-gl/mapbox-gl.js"></script>
 	<script src="js/theme.js"></script>
+	<script>var form=document.getElementById("my-form");async function handleSubmit(e){e.preventDefault();var t=document.getElementById("my-form-status"),r=new FormData(e.target);fetch(e.target.action,{method:form.method,body:r,headers:{Accept:"application/json"}}).then(e=>{e.ok?(t.innerHTML="Your message has been sent. Thanks for your submission!",form.reset()):e.json().then(e=>{Object.hasOwn(e,"errors")?t.innerHTML=e.errors.map(e=>e.message).join(", "):t.innerHTML="Oops! There was a problem submitting your form"})}).catch(e=>{t.innerHTML="Oops! There was a problem submitting your form"})}form.addEventListener("submit",handleSubmit);</script>
 	
 	<!-- -->
 	<div class="sidenav canvas-sidebar bg-white">
