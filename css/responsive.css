@@ -19,6 +19,7 @@
 	.section-callout { padding: 50px 0; margin-bottom: 0 !important; }
 	
 	footer { padding-top: 50px; }
+	footer .list-links li { margin-bottom: 0; }
 	
 	.fs-40 { line-height: 48px; }
 	.fs-30 { line-height: 38px; }
